@@ -1,0 +1,107 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background: #d1d1d1;
+}
+.container{
+    width: 1200px;
+    margin: 25px auto 0;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+.navbar {
+    background-color: white;
+    width: 1200px;
+    margin: 25px auto 0;
+    border-radius: 15px;
+}
+.logo{
+    width: 10%;
+    float: left;
+    padding-left: 5px;
+}
+.menu{
+    line-height: 50px;
+    font-size: 18px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+.menu ul li:hover{
+    background-color: #bab638;
+    border-radius: 12px;
+}
+a{
+    color: #3868ba;
+    text-decoration: none;
+}
+#main-content{
+    /* padding: 25px; */
+   min-height: 400px;
+}
+#main-content h2{
+   margin: 0 0 10px;
+   text-transform: capitalize;
+}
+
+#main-content table{
+   width: 100%;
+   background-color: #555;
+   margin: 0 0 20px;
+}
+
+#main-content table th{
+   color: #fff;
+   background-color: #45858C;
+   text-transform: uppercase;
+   padding: 5px;
+
+}
+#main-content table th:last-child{
+   width: 150px;
+}
+#main-content table td{
+   background-color: #fff;
+   padding: 5px;
+   text-align: center;
+   font-size: 18px;
+}
+#main-content table td a{
+   font-size: 16px;
+   font-weight: 600;
+   text-transform: uppercase;
+   padding: 3px 7px;
+   color: #fff;
+   background-color: #e67e22;
+   text-decoration: none;
+   border-radius: 3px;
+}
+#main-content table td a:nth-child(2){
+   background-color: #e74c3c;
+   margin: 0 0 0 5px;
+}

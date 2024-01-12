@@ -1,0 +1,159 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: sans-serif;
+}
+.cart-page {
+    width: 80%;
+    margin: 10px auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+th {
+    text-align: left;
+    padding: 8px;
+    color: white;
+    background: #45858C;
+    font-weight: normal;
+    font-size: 20px;
+}
+td {
+    padding: 10px 5px;
+}
+td input[type="number"] {
+    width: 50px;
+    height: 40px;
+    padding: 5px;
+    margin-left: 10px;
+    text-align: center;
+}
+td a{
+    background: green;
+    color: white;
+    font-size: 18px;
+    outline: none;
+}
+td img {
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+}
+td:nth-child(2) input[type="submit"] {
+    border: none;
+    font-size: 17px;
+    background: #04BF55;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+}
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+}
+.total-price table {
+    border-top: 3px solid #ff523b;
+    width: 100%;
+    max-width: 500px;
+}
+td:last-child {
+    text-align: right;
+    padding-right: 10px;
+}
+th:last-child {
+    text-align: right;
+    padding-right: 10px;
+}
+th:first-child {
+    padding-left: 150px;
+    width: 45%;
+}
+td:first-child {
+    width: 45%;
+}
+th:nth-child(2),td:nth-child(2) {
+    width: 25%;
+
+}
+.check-out-btn {
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    background: green;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    text-align: left;
+}
+.continue-shopping-btn {
+    text-align: right;
+    font-size: 18px;
+    text-decoration: none;
+    background: green;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+#cart-count {
+    color: red;
+}
+
+/* CSS for navbar section */
+.container{
+    width: 80%;
+    margin: 5px auto;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+.menu a{
+    color: #3868ba;
+    text-decoration: none;
+}
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 50px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+    color: white;
+}
+
+.menu ul li:hover{
+    background-color: #bab638;
+    border-radius: 15px;
+}

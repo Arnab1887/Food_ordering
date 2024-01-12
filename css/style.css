@@ -1,0 +1,196 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 5px auto;
+    
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #3868ba;
+    text-decoration: none;
+}
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background: #04BF55;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background: #02732A;
+}
+
+
+/* CSS for navbar section */
+
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 50px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+.menu ul li:hover{
+    background-color: #bab638;
+    border-radius: 12px;
+}
+/* CSS for Food SEarch Section */
+
+.food-search{
+    background-image: url(../image/banner-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10% 0; /*bg-img Height can be controlled from here*/
+    border-radius: 10px;
+    margin: 0px 5px;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* CSS for Food Menu */
+.menu-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.menu {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.menu-group-heading {
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #ccc;
+}
+
+.menu-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5em;
+    padding: 1.5em 0;
+}
+
+.menu-item {
+    display: flex;
+}
+
+.menu-item-image {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+}
+
+.menu-item-text {
+    flex-grow: 1;
+}
+
+.menu-item-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.menu-item-name {
+    margin-right: 1.5em;
+}
+
+.menu-item-description {
+    line-height: 1.6;
+}
+.add-to-cart {
+    display: flex;
+    justify-content: center;
+}
+.atc-btn{
+    padding: 1%;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+}
+/* Contact Section Starts*/
+.contact-container {
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.map {
+    width: 40%;
+    height: 250px;
+    margin-right: auto;
+    padding: 20px;
+}
+#contact-section {
+    padding: 1%;
+    background: #595b83;
+}
+.contact-details {
+    color: white;
+    padding: 20px 0;
+}
+.contact-details p,
+address {
+    font-size: 0.8rem;
+}
+.social {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    justify-content: center;
+    align-content: flex-start;
+}
+.social ul{
+    list-style-type: none;
+}
+/* Contact Section ends */
